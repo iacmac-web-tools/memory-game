@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <title>Ancient Memory Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Memory Game" content="Ancient Memory Game">
+    <meta name="keywords" content="memory game, flipping cards, ancient Greece">
+
+    <!-- ANDROID CUSTOMIZATION -->
+    <meta name="theme-color" content="#15ba00">
+    <link rel="icon" sizes="192x192" href="images/favicon-16x16.png">
+
+    <!--Styles -->
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" property='stylesheet'>
+
+    <!-- Fonts & Fonts Related-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+
+    <!-- The Favicon -->
+    <link rel="icon" href="images/favicon-16x16.png">
+
+</head>
+
+<body>
+
+    <!-- PAGE 1 -->
+    <div class="page page1" title="" id="1">
+
+        <div class="title-container">
+            <h1>Drugs & Bugs Game</h1>
+        </div>
+        
+        <div class="button-container" title="Click To Start!!!">
+            <a href="#2" class="button">
+                <h2>PRESS START</h2>
+            </a>
+        </div>
+
+        <div class="message">
+  
+        </div>
+
+        <div class="info">
+
+        </div>
+
+    </div>
+
+    <!-- PAGE 2 -->
+    <div class="page page2" id="2">
+
+        <section class="score-panel">
+
+            <div class="stars-container">
+                <ul class="stars">
+                    <li>
+                        <i class="fa fa-star"></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-star"></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-star"></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="moves-container">
+                <h3>Moves</h3>
+                <span class="move" id="moves">0</span>
+            </div>
+
+            <div class="restart" id="shuffle" title="Click to Restart!">
+                <i class="fa fa-repeat"></i>
+            </div>
+
+            <div class="timer">
+                <i class="fa fa-clock-o"></i>
+                <p id="time">0</p>
+            </div>
+
+        </section>
+
+        <main class="grid-container">
+            <ul class="deck" id="theDeck" title="Click to Dig!">
+                <li class="card 1">
+                    <img src="images/bact-blue.svg" alt="">
+                </li>
+                <li class="card 2">
+                    <img src="images/bact-deep-blue.svg" alt="">
+                </li>
+                <li class="card 3">
+                    <img src="images/bact-green.svg" alt="">
+                </li>
+                <li class="card 4">
+                    <img src="images/bact-orange.svg" alt="">
+                </li>
+                <li class="card 5">
+                    <img src="images/bact-pink.svg" alt="">
+                </li>
+                <li class="card 6">
+                    <img src="images/bact-red.svg" alt="">
+                </li>
+                <li class="card 7">
+                    <img src="images/bact-violet.svg" alt="">
+                </li>
+                <li class="card 8">
+                    <img src="images/bact-yellow.svg" alt="">
+                </li>
+                <!-- Second Group -->
+                <li class="card 1">
+                    <img src="images/pills-blue.svg" alt="">
+                </li>
+                <li class="card 2">
+                    <img src="images/pills-deep-blue.svg" alt="">
+                </li>
+                <li class="card 3">
+                    <img src="images/pills-green.svg" alt="">
+                </li>
+                <li class="card 4">
+                    <img src="images/pills-orange.svg" alt="">
+                </li>
+                <li class="card 5">
+                    <img src="images/pills-pink.svg" alt="">
+                </li>
+                <li class="card 6">
+                    <img src="images/pills-red.svg" alt="">
+                </li>
+                <li class="card 7">
+                    <img src="images/pills-violet.svg" alt="">
+                </li>
+                <li class="card 8">
+                    <img src="images/pills-yellow.svg" alt="">
+                </li>
+
+            </ul>
+        </main>
+
+        <!-- The Modal -->
+        <div id="my-modal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+
+                <span class="close">&times;</span>
+                <h1>Congratulations!</h1>
+
+                <div class="your-score">
+                    <!-- score goes here with js -->
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Scripts Here -->
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
+
+<!-- Icon made by [author link] from www.flaticon.com  -->
